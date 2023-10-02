@@ -9,7 +9,7 @@ Uma calculadora para cálculo básico com base na Renda Tributária (RT) e nas D
 [Calcular Imposto de Renda]()
 
 ## Funcionalidades
-[x] - Calculo do Imposto Devido para declaração do Imposto de Renda.
+ [x] - Calculo do Imposto Devido para declaração do Imposto de Renda.
 
 ## Tecnologias utilizadas
  - HTML
