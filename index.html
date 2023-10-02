@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculadora de Imposto de Renda</title>
+</head>
+<body>
+    <div id="container">
+        <section id="box-calculadora">
+            <h1>Calculadora de Imposto de Renda</h1>
+
+            <label for="rendimento">Informe seu Rendimento Tributável (RT):</label>
+            <strong>*Seu salário mensal.</strong>
+            <div class="box-input">
+                <p>R$</p>
+                <input type="text" id="rendimento" placeholder="Ex.: R$ 1221.00">
+            </div>
+            
+            <label for="deducoes">Informe suas Despesas Dedutíveis (DD):</label>
+            <strong>*Seu gasto mensal.</strong>
+            <div class="box-input">
+                <p>R$</p>
+                <input type="text" id="deducoes" placeholder="Ex.:R$ 1100.00">
+            </div>
+            
+            <button id="calcular">Calcular Imposto</button>
+            <button id="clean"><i class="fa-solid fa-broom"></i></button>
+            
+            <div id="box-resultado">
+                <p>Imposto Devido: </p>
+                <span id="impostoDevido"></span>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
